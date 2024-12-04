@@ -1,0 +1,419 @@
+
+/*CHARTE GRAPHIQUE*/
+
+:root{
+    /*Colors*/
+    --white: #FFFAF4; 
+    --beige: #E0D6C9; 
+    --sand: #BDAE9B; 
+    --marron:#736451; 
+}
+
+h1{
+    font-style:normal; 
+    font-weight: 300;
+    font-size: 4.3rem;
+    color: var(--marron); 
+}
+
+span.titleBold{
+    font-size: 90px;
+    line-height: 106%;
+    font-weight: 800;
+}
+
+h2{
+    font-style:normal; 
+    font-weight: 300;
+    font-size: 2.5rem;
+    color:var(--marron);
+    text-align: center;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--marron);
+}
+
+/*BODY*/
+.body{
+    font-family: "Open Sans", serif;
+    color: var(--marron); 
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HERO*/
+.heroheader{
+display: flex;
+height: 42.8rem;
+width: 100%;
+background-image: url(assets/images/accueil-img.png);
+background-position: end;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.header{
+    display: flex;
+    height: 50px;
+    width: 1160px;
+    margin-left: 122px; 
+    margin-top: 26px;
+    margin-bottom: 26px;
+    gap:577px;
+ } 
+
+    .logo{
+        text-align: left;
+        size: 3.1rem;
+    }
+    .navbar{
+            display:flex;
+            text-align: center;
+            justify-content:center;
+            list-style-type: none;
+            padding-bottom: 20px;
+            height: 27px;
+            width: 533px; 
+            font-size: 20px;
+            gap: 40px;
+        }
+
+    .navbar a{
+        color: var(--marron); 
+        text-decoration: none;
+        padding: 0%;
+    }
+    .navbar :hover, 
+    .navbar:active{
+        color:var(--marron);
+        text-decoration: underline;
+    }
+
+/*INTRO*/
+.textbox{
+    text-align: left;
+    height: 279px;
+    width: 475px;
+    margin-left: -1132px;
+    margin-top:12.7rem;
+    font-size: 24px;
+}
+
+/*SERVICES*/
+#Services{
+    background-color: var(--white);
+    text-align: center; 
+    margin: 0%;
+    padding:44px;
+    background-color: var(--white);
+    text-align: center; 
+    margin:0px;
+}
+
+    .NosServices{
+        background-color: var(--white);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: 672px;
+        gap: 88px; 
+        padding-left: 122px; 
+        padding-right:122px; 
+        padding-bottom: 30px;
+    }
+
+        .titleservice{
+            display: flex; 
+            justify-content: left;
+            background-color: white;
+            width: 340px;
+            margin: 0;
+            width: 340px;
+    }
+        .paragrapheService{
+            display: flex; 
+            justify-content: left;
+            font-size: 1rem;
+            background-color: white;
+            margin: 0;
+            width: 340px;
+
+    }
+    .iconFleche{
+        display: flex;
+        justify-content: right;
+        background-color: white;
+        width: 340px;
+        margin: 0;
+    }
+
+/*NOS CADEAUX*/
+#noscadeaux{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 122px;
+    padding-right: 122px;
+    background-color: var(--marron);
+    height: 431px;
+    gap: 202px;
+    color:white;
+}
+
+    .titlenosCadeaux{
+        text-align: left;
+        width: 706px;
+        color:white;
+        padding: 12px;
+
+    }
+    .descriptionNoscadeaux{
+        text-align: left;
+        width: 631px;
+        height:168px;
+        font-size: 20px;
+    }
+
+/*BUTTON ACHAT*/
+    #acheterButton{
+        background-color: var(--white);
+        color:var(--marron);
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        padding: auto;
+        height: 43px;
+        width: 170px;
+    }
+
+    #acheterButton:hover{
+        text-decoration: underline;
+    }
+    .orchidea{
+        text-align: right;
+        height: 431px;
+        width: 288px;
+    }
+
+/*INSTAGRAM SECTION*/
+#Instagram{
+    background-color: var(--white);
+    text-align: center; 
+    margin:0px;
+    padding: 100px;
+
+}
+
+.instagram {
+    height: 582px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 43px;
+    justify-content: center;
+    padding-left: 122px; 
+    padding-right: 122px;
+    background-color: var(--white);
+
+}
+
+.photo {
+    width: 267px;
+    height: 267px;
+    text-align: center;
+}
+
+.photo-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    size: 35px;
+    gap: 5px;
+    font-weight: 300px;
+    font-size: 20px;
+}
+
+.Partager {
+    font-size: 20px;
+    font-weight: 300px;
+    color: var(--marron);
+}
+/*FOOTER*/ 
+#contact{
+    display: flex;
+    flex-direction: row;
+    max-height: 306px;
+    padding-left: 122px;
+    padding-right: 122px; 
+    justify-content: space-between;
+    gap: 627;
+}
+
+.footerLeft{
+    display: flex;
+    text-align: left;
+    flex-wrap: calc(50%);
+    margin: 0px;
+}
+
+/*BUTTON CONTACT*/
+.contactbutton{
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--marron);
+    color: var(--white);
+    border: none;
+    height: 57px;
+    width: 225px;
+    margin: 5px;
+    padding: 10px 30px;
+    gap: 627px;
+    font-size: 20px;
+}
+
+.contactbutton:hover{
+    text-decoration: underline;
+}
+
+.footerRight{
+    text-align: right;
+    margin: 0px;
+    flex-wrap: calc(50%);
+}
+
+.reseaux{
+    list-style-type: none;
+    display:flex;
+    direction: row; 
+    align-items: center;
+    gap: 27px;
+}
+
+/*ESSAIE DE RESPONSIVE*/
+@media (max-width: 768px) {
+
+    .body{
+        display:flex; 
+        flex-direction: column;
+        height: 100%;
+        font-size: 1rem;
+    }
+    .heroheader {
+        height: 100%;
+        background-position: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: left;
+        flex-wrap: wrap;
+        height: 400px;
+        width:100%;
+        gap: 1px;
+    }
+
+    .logo {
+        size: 1rem;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        font-size: 14px;
+        align-items: left;
+        justify-items: center;
+        padding-inline: 2px;
+        
+    }
+
+    .textbox {
+        width: 279px;
+        height: 200px;
+        margin-top: 3rem;
+        font-size: 1rem;
+        margin-left: -850px;
+        padding: 55px;
+    }
+
+    h1{
+        font-style:normal; 
+        font-weight: 300;
+        font-size: 2rem;
+        color: var(--marron); 
+}
+span.titleBold{
+    font-size: 40px;
+    line-height: 50%;
+    font-weight: 800;
+}
+.NosServices{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+    padding: 10px;
+}
+
+#noscadeaux{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: left;
+    background-color: var(--marron);
+    height: 250px;
+    color:white;
+}
+.titlenosCadeaux{
+    text-align: left;
+    width: 300PX;
+    color:white;
+    padding: 6px;
+
+}
+.descriptionNoscadeaux{
+    text-align: left;
+    width: 100%;
+    height:65px;
+    font-size: 12px;
+}
+
+#acheterButton{
+    font-size: 14px;
+    padding: auto;
+    height: 20px;
+    width: 70px;
+
+}
+.orchidea{
+ display: none;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:  wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width:768px;
+  height: 450px;
+}}
